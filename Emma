@@ -1,0 +1,325 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quién soy? | Emma</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #0b1020, #151b38);
+            color: #e5eaf5;
+            line-height: 1.8;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: auto;
+        }
+
+        section {
+            background: rgba(15, 20, 40, 0.95);
+            border: 1px solid #414b65;
+            border-radius: 25px;
+            padding: 35px;
+            margin-bottom: 35px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1, h2 {
+            color: #a77bff;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 45px;
+            text-align: center;
+            background: linear-gradient(90deg, #00d9ff, #a77bff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h2 {
+            font-size: 32px;
+        }
+
+        .numero {
+            color: #00d9ff;
+        }
+
+        .subtitulo {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+
+        .especialidad {
+            text-align: center;
+            border: 1px solid #66749c;
+            border-radius: 50px;
+            padding: 15px;
+            color: #00d9ff;
+            margin-top: 20px;
+        }
+
+        .foto {
+            width: 100%;
+            max-width: 550px;
+            display: block;
+            margin: 25px auto;
+            border-radius: 20px;
+            border: 3px solid #414b65;
+            object-fit: cover;
+        }
+
+        .tarjeta {
+            background: #192440;
+            border: 1px solid #414b65;
+            border-radius: 20px;
+            padding: 25px;
+            margin-top: 25px;
+            transition: transform 0.3s;
+        }
+
+        .tarjeta:hover {
+            transform: translateY(-5px);
+        }
+
+        .tarjeta h3 {
+            color: #a9c1ff;
+            font-size: 23px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .collage {
+            width: 100%;
+            border-radius: 20px;
+            margin-top: 25px;
+        }
+
+        footer {
+            text-align: center;
+            color: #aab8d8;
+            font-size: 18px;
+            padding: 25px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+            }
+
+            section {
+                padding: 22px;
+            }
+
+            h1 {
+                font-size: 34px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            p, li {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- PORTADA -->
+    <section>
+        <h1>¿QUIÉN SOY?</h1>
+
+        <div class="subtitulo">
+            Emma · Mi historia, mis metas y lo que me inspira
+        </div>
+
+        <div class="especialidad">
+            Ingeniería en Tecnologías de la Información y Comunicaciones
+        </div>
+    </section>
+
+    <!-- 01 CONÓCEME -->
+    <section>
+        <img src="emma.jpg" alt="Fotografía de Emma" class="foto">
+
+        <h2><span class="numero">01.</span> Conóceme</h2>
+
+        <p>
+            Soy Emma. Me considero una persona seria y sumamente
+            responsable, que ha aprendido a enfrentar la vida con madurez.
+            Desde pequeño he enfrentado complicaciones de salud y eso
+            me enseñó a valorar cada día y a no rendirme fácilmente.
+            Eso me hizo una persona eficaz.
+        </p>
+
+        <p>
+            No le tengo miedo a lo nuevo que viene; al contrario,
+            lo veo como una oportunidad para crecer y demostrar
+            de qué estoy hecho. Aunque a veces no exprese mucho
+            con palabras, valoro a cada una de las personas que
+            me han apoyado y que nunca me han dejado solo.
+        </p>
+    </section>
+
+    <!-- 02 ORIGEN -->
+    <section>
+        <h2><span class="numero">02.</span> ¿De dónde vengo?</h2>
+
+        <p>
+            Mis raíces están en <strong>Colonia Huitexcalco</strong>,
+            el lugar de donde vengo y que forma parte de mi historia.
+        </p>
+
+        <img src="huitecalco.jpg"
+             alt="Colonia Huitexcalco"
+             class="foto">
+    </section>
+
+    <!-- 03 ESTUDIOS -->
+    <section>
+        <h2><span class="numero">03.</span> ¿Por qué estudio TICs?</h2>
+
+        <p>
+            Llegar hasta esta universidad no fue nada fácil,
+            pero mis ganas de superarme en el ámbito académico
+            me impulsaron a seguir adelante. Mis metas son demostrar
+            que, aunque haya tenido y tenga situaciones complicadas,
+            sí se puede.
+        </p>
+
+        <p>
+            También le debo esta oportunidad a mis papás, quienes,
+            poco o mucho, siempre me han apoyado. Quiero seguir
+            creciendo y adquiriendo conocimientos. Elegí TICs porque
+            desde un principio me ha gustado la tecnología,
+            los códigos y descubrir todo lo que puedo aprender
+            sobre ellos.
+        </p>
+
+        <div class="tarjeta">
+            <h3>💻 Tecnología</h3>
+            <p>Explorar herramientas y nuevas posibilidades.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>⌨️ Programación</h3>
+            <p>Aprender códigos y resolver problemas.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>🚀 Superación</h3>
+            <p>Crecer, avanzar y demostrar que sí se puede.</p>
+        </div>
+    </section>
+
+    <!-- 04 PASATIEMPOS -->
+    <section>
+        <h2><span class="numero">04.</span> Mis pasatiempos</h2>
+
+        <div class="tarjeta">
+            <h3>🛍️ Trabajar</h3>
+            <p>Ser responsable y salir adelante.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>📚 Estudiar</h3>
+            <p>Prepararme para alcanzar mis metas.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>😴 Dormir</h3>
+            <p>Descansar y recargar energía.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>❤️ Estar con mi pareja</h3>
+            <p>Compartir momentos especiales.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>🧠 Aprender tecnología</h3>
+            <p>Seguir descubriendo cosas nuevas.</p>
+        </div>
+
+        <img src="pasatiempos.jpg"
+             alt="Collage de mis pasatiempos"
+             class="collage">
+    </section>
+
+    <!-- 05 CONTENIDO FAVORITO -->
+    <section>
+        <h2>
+            <span class="numero">05.</span>
+            Top 5 de mi contenido favorito
+        </h2>
+
+        <ul>
+            <li>
+                <strong>Anime:</strong>
+                Me gusta verlo para distraerme y conocer historias diferentes.
+            </li>
+
+            <li>
+                <strong>Facebook:</strong>
+                Para estar conectado y enterarme de lo que pasa.
+            </li>
+
+            <li>
+                <strong>TikTok:</strong>
+                Contenido rápido y entretenido.
+            </li>
+
+            <li>
+                <strong>YouTube:</strong>
+                Para aprender sobre tecnología, códigos y temas que me interesan.
+            </li>
+
+            <li>
+                <strong>Instagram:</strong>
+                Para ver contenido variado y estar al día.
+            </li>
+        </ul>
+
+        <img src="redes.jpg"
+             alt="Mis redes sociales favoritas"
+             class="collage">
+    </section>
+
+    <footer>
+        ✨ Mi pasado me fortalece, mi presente me prepara
+        y mi futuro me espera. ✨
+    </footer>
+
+</div>
+
+</body>
+</html>
